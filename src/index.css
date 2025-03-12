@@ -1,0 +1,119 @@
+/* General Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Page Styling */
+  body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  /* Container */
+  .container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Header */
+  .header {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Form */
+  .new-item-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .form-row {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-row label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-row input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* To-Do List */
+  .list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .list label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+  }
+  
+  .list input[type="checkbox"] {
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+  
+  /* Delete Button */
+  .btn-danger {
+    background-color: #dc3545;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .btn-danger:hover {
+    background-color: #b02a37;
+  }
+  
